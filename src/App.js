@@ -1,27 +1,11 @@
-
-import {BrowserRouter as Router,Routes,Route} from "react-router-dom"
-import NavBar from "./NavBar";
-import Contact from "./Contact";
-import About from "./About";
-
-function App() {
-return(
-<div>
-
-  <Router>
- <NavBar/>
-<Routes>
-<Route path="/"/>
-<Route path="/about" element= {<About/>}/>
-<Route path="/contact" element = {<Contact/>}/>
-
-</Routes >
-
-  </Router>
-
-  </div>
-  
+import React from 'react'
+import CardDetails from './Components/CardDetails'
+const App = () => {
+  return (
+    <div className='px-10 py-5'>
+      <CardDetails/>
+    </div>
   )
 }
 
-export default App;
+export default App

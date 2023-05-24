@@ -2,19 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-  background: linear-gradient(to right, #fda4af, rgba(250, 155, 166, 0));
-}
-
-
-.progressBar{
- 
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 10px;
-    background: red;
-    transform-origin: -0vh;
-  
-}
