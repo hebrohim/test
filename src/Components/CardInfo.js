@@ -11,7 +11,7 @@ const CardInfo = () => {
     <section>
    
 <CardNumber/>
-      <div className="border-2 w-full flex justify-between p-2 rounded-md my-5 md:w-[50vw]">
+      <div className="border-2 w-full flex justify-between p-2 rounded-md mt-5 md:w-[50vw]">
         <img src={mcSymbol} alt="masterCard" style={{ width: "1.6rem", marginRight: ".5rem" }} />
         <input
           className="w-full outline-none"

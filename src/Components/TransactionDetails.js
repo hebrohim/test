@@ -2,9 +2,10 @@ import React from "react";
 import chip from "../assets/chip.png";
 import wifi from "../assets/wifi.png";
 import masterCard from "../assets/mastercard-2.svg";
+import docket from"../assets/docket.png"
 const TransactionDetails = () => {
   return (
-    <div className="mt-40 md:w-[30vw]">
+    <div className="mt-24 md:w-[30vw]">
       <div className="bg-slate-200 rounded-2xl  flex flex-col justify-center px-8">
         <div className="w-[70vw] bg-gray-100 rounded-2xl px-5 mx-auto py-10 -translate-y-24 md:w-[20vw]">
           <div className="flex justify-between">
@@ -42,6 +43,27 @@ const TransactionDetails = () => {
         <div className="font-bold">$100.00</div>
         </div>
       </div>
+
+
+
+
+{/* TOTAL AMOUNT SECTION */}
+<div className="flex items-center justify-between">
+<div>
+      <h3 className="text-sm text-slate-400">You have to pay</h3>
+      <p className="text-xs font-bold">
+       <span className="text-lg font-bold">549</span>.99 USD
+      </p>
+    </div>
+
+    <div>
+   <img src={docket} style={{ width: "1.5rem", height: "1.5rem" }}/>
+    </div>
+  </div>
+  
+
+
+      
       </div>
 
     </div>
