@@ -2,7 +2,7 @@ import React from 'react'
 import logo from "../assets/docket.png"
 const Header = () => {
   return (
-    <header className='flex items-center justify-between text-slate-900 mb-10'>
+    <header className='flex items-center justify-between text-slate-900 mb-10 md:w-[50vw]'>
         <div className='flex items-center'>
        <div className='bg-sky-600 p-2 rounded-full'><img src={logo} style={{width:"1rem"}} className='shadow-sm shadow-white' /></div> 
         <h2 className='pl-2 text-lg'><span className='font-bold'>AceCoin</span>Pay</h2>

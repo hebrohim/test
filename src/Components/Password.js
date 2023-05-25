@@ -3,7 +3,7 @@ import dotsImg from "../assets/dots.svg";
 
 const Password = () => {
   return (
-    <div className="Password">
+    <div className="Password md:w-[50vw]">
     <div>
       <h3 className="text-sm font-bold">Password</h3>
       <p className="text-xs text-slate-400">

@@ -2,7 +2,7 @@ import React from 'react'
 
 const ExpiryDate = () => {
   return (
-    <div className="ExpiryDate">
+    <div className="ExpiryDate md:w-[50vw]">
     <div>
       <h3 className="text-sm font-bold">Expiry Date</h3>
       <p className="text-xs text-slate-400">

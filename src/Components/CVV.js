@@ -3,7 +3,7 @@ import dotsImg from "../assets/dots.svg";
 
 const CVV = () => {
   return (
-    <div className="cvv">
+    <div className="cvv md:w-[50vw]">
     <div>
       <h3 className="text-sm font-bold">CVV Number</h3>
       <p className="text-xs text-slate-400">

@@ -3,7 +3,7 @@ import { HiPencil } from "react-icons/hi";
 
 const CardNumber = () => {
   return (
-    <div className="cardNumber flex items-center justify-between text-slate-900">
+    <div className="cardNumber flex items-center justify-between text-slate-900 md:w-[50vw]">
     <div>
       <h3 className="text-sm font-bold">Card Number</h3>
       <p className="text-xs text-slate-400">
